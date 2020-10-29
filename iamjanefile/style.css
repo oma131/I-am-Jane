@@ -1,0 +1,188 @@
+@import url("/bootstrap/scss/bootstrap.scss");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282828;
+  font-family: "open sans", sans-serif !important;
+  font-size: 95%;
+  color: #f5f4f4;
+}
+
+ul {
+  list-style: none;
+}
+
+.h-button {
+  border-radius: 0;
+  width: 125px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f4f4;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f5f4f4;
+  font-weight: bolder;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.text-18 {
+  font-size: 1.125rem;
+}
+
+header {
+  background-image: url("/assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vmin;
+}
+
+header .active {
+  font-weight: bold;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .left {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 26rem;
+  color: #f5f4f4;
+  margin-top: 50%;
+}
+
+header .right {
+  height: 100vmin;
+  margin-top: 50vmin;
+  text-decoration: none;
+}
+
+#about {
+  height: 100%;
+}
+
+#about .container {
+  height: 100%;
+}
+
+#about .row {
+  height: 100%;
+}
+
+#about .left_about {
+  width: 100%;
+}
+
+#about .left_about .image {
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#about .left_about .image img {
+  width: inherit;
+  max-width: 28rem;
+}
+
+#about .right_about {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#about .right_about .container {
+  margin-top: 10rem;
+}
+
+#gallery {
+  height: 100%;
+}
+
+#gallery .col-md-4 {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#gallery .col-md-4 img {
+  width: inherit;
+  height: 20rem;
+  border: 2px solid green;
+}
+
+.right .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.right .form-control {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.right .name {
+  margin-right: 0.70rem;
+}
+
+.right .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.right .text-center {
+  text-align: center !important;
+}
+
+@media (min-width: 768px) {
+  #gallery {
+    height: 100%;
+  }
+  #gallery .col-md-4 {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
